@@ -17,6 +17,7 @@ const AddTodo = () => {
     }
   };
 
+  // handle by enter key
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       handleAddTodo();

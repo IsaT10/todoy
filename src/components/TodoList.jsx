@@ -7,10 +7,12 @@ const TodoList = () => {
 
   const todos = useSelector((state) => state.todos);
 
+  // handle todo status
   const handleToggleTodoStatus = (id) => {
     dispatch(toggleTodoStatus(id));
   };
 
+  // delete todo
   const handleDeleteTodo = (id) => {
     dispatch(deleteTodo(id));
   };
@@ -53,6 +55,7 @@ const TodoList = () => {
                     />
                     <span className="h-5 w-5 checkmark absolute top-[2px] right-10 bg-gray-400"></span>
                   </label>
+
                   <button
                     className="text-red-600"
                     onClick={() => handleDeleteTodo(todo.id)}

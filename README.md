@@ -1,8 +1,21 @@
-# React + Vite
+# TODOY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live link](https://tod0y.netlify.app/)
 
-Currently, two official plugins are available:
+### Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple Todo List application built with React and Redux.
+
+### Installation
+
+To install the necessary dependencies, run the following command:
+
+```bash
+npm install
+```
+
+To run the application
+
+```bash
+npm run dev
+```
